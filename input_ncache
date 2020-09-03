@@ -1,0 +1,14 @@
+3
+2 5 10
+1 3 9
+5 10 15
+WRITE abc apple
+WRITE def ball
+READ abc
+WRITE ghi cat
+WRITE jkl dog
+WRITE mno elephant
+WRITE pqr fish
+READ jkl
+WRITE abc apple
+STATS

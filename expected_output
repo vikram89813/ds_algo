@@ -1,0 +1,51 @@
+Write time: 43
+abc: apple,
+abc: apple,
+abc: apple,
+
+Write time: 43
+def: ball, abc: apple,
+def: ball, abc: apple,
+def: ball, abc: apple,
+
+Value at abc is apple
+Read time: 1
+abc: apple, def: ball,
+def: ball, abc: apple,
+def: ball, abc: apple,
+
+Write time: 43
+ghi: cat, abc: apple,
+ghi: cat, def: ball, abc: apple,
+ghi: cat, def: ball, abc: apple,
+
+Write time: 43
+jkl: dog, ghi: cat,
+jkl: dog, ghi: cat, def: ball, abc: apple,
+jkl: dog, ghi: cat, def: ball, abc: apple,
+
+Write time: 43
+mno: elephant, jkl: dog,
+mno: elephant, jkl: dog, ghi: cat, def: ball, abc: apple,
+mno: elephant, jkl: dog, ghi: cat, def: ball, abc: apple,
+
+Write time: 43
+pqr: fish, mno: elephant,
+pqr: fish, mno: elephant, jkl: dog, ghi: cat, def: ball,
+pqr: fish, mno: elephant, jkl: dog, ghi: cat, def: ball, abc: apple,
+
+Value at jkl is dog
+Read time: 9
+jkl: dog, pqr: fish,
+jkl: dog, pqr: fish, mno: elephant, ghi: cat, def: ball,
+pqr: fish, mno: elephant, jkl: dog, ghi: cat, def: ball, abc: apple,
+
+Write time: 28
+abc: apple, jkl: dog,
+abc: apple, jkl: dog, pqr: fish, mno: elephant, ghi: cat,
+abc: apple, pqr: fish, mno: elephant, jkl: dog, ghi: cat, def: ball,
+
+Usage: 2 / 2, 5 / 5, 6 / 10,
+abc: apple, jkl: dog,
+abc: apple, jkl: dog, pqr: fish, mno: elephant, ghi: cat,
+abc: apple, pqr: fish, mno: elephant, jkl: dog, ghi: cat, def: ball,
